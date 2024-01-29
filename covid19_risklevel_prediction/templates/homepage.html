@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>HomePage</title>  
+   <div class="a"><h1 align="center"> COVID19 RISK PREDICTION  </h1></div>
+    <style>
+    	body{
+    		background-image: url("{{url_for('static',filename='img/homepage.jpg')}}");
+    		 background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    	}
+    	.a{
+    		height: 50px;
+            width: 100%;
+		  background-color: rgb(255, 255, 255,0.5);
+    	}
+			.nav-area {
+				float: right;
+				list-style: none;
+				margin-top: 30px;
+			}
+			.nav-area li {
+				display: inline-block;
+			}
+			.nav-area li a {
+				color: #fff;
+				text-decoration: none;
+				padding: 5px 20px;
+				font-family: poppins;
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+			.nav-area li a:hover {
+				background: #fff;
+				color: #333;
+			}
+    </style>
+</head>
+<body>
+    <header>
+    
+        
+          
+     
+<ul class="nav-area">
+
+<li><a href="{{ url_for('symptoms')}}">Symptoms</a></li>
+<li><a href="{{ url_for('precautions')}}">Precautions</a></li>
+<li><a href="{{ url_for('treatments')}}">Treatments</a></li>
+<li><a href="{{ url_for('index')}}">Covid Risk Level Prediction</a></li>
+
+<li><a href="{{ url_for('eda')}}">EDA</a></li>
+
+<li><a href="https://www.worldometers.info/coronavirus/country/india/" target="new">Covid-19 India Update</a></li>
+
+<li><a href="{{ url_for('contact')}}" target="new">Help Line and Bed Availability</a></li>
+</ul>
+
+</header>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+ <div class="a">  <h1 align="center">RESULT</h1></div><br>
+<h1 align="center">   {{ prediction_text }} </h1>
+    <title>Result</title>
+
+       <style>
+
+   .a{
+        height: 50px;
+            width: 100%;
+      background-color: rgb(255, 255, 255,0.5);
+      }
+
+ .button {
+   
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+   background-color: white; 
+  color: black; 
+  border: 2px solid black;
+}
+
+.button:hover {
+  background-color:black;
+  color: white;
+}
+  .na {
+
+    text-align:center;
+    text-align-last:center;
+  }
+  body{
+        background-image: url("{{url_for('static',filename='img/result.jpg')}}");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+}
+</style>
+</head>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<body>
+  
+<div class="na">
+
+<a class ="button" href="{{ url_for('index')}}" class="btn btn-primary btn-block btn-large">PREDICT AGAIN</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="button" href="{{ url_for('home')}}">BACK</a>
+
+ 
+        </div>
+</body>
+</html>         
+ 
+
+
+
+
