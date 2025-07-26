@@ -1,5 +1,5 @@
 
-# COVID-19 Risk Level Prediction
+# COVID-19 Outbreak Data Analysis And Risk Prediction
 
 This project is a simple web application that predicts the risk level of COVID-19 for individuals based on their symptoms and other inputs.
 
