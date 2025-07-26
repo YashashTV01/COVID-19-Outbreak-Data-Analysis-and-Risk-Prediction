@@ -22,8 +22,10 @@ This project is a simple web application that predicts the risk level of COVID-1
 1. Clone the repository:
 ```
 
-git clone [https://github.com/YashashTV01/covid19\_risklevel\_prediction.git](https://github.com/YashashTV01/covid19_risklevel_prediction.git)
-cd covid19\_risklevel\_prediction
+https://github.com/YashashTV01/covid19_risklevel_prediction.git
+cd covid19_risklevel_prediction
+
+
 
 ```
 
@@ -43,9 +45,7 @@ python app.py
 
 4. Open your browser and go to:
 ```
-
-[http://localhost:5000](http://localhost:5000)
-
+http://localhost:5000
 ```
 
 
