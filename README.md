@@ -49,8 +49,4 @@ python app.py
 ```
 
 
-```
 
----
-
-You can paste this directly into your GitHub repo at [this link](https://github.com/YashashTV01/covid19_risklevel_prediction/edit/main/README.md). Let me know if you'd like to add images or a short demo video later.
